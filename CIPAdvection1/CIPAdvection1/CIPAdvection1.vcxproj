@@ -110,11 +110,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AdvectionScheme.h" />
+    <ClInclude Include="Cip.h" />
     <ClInclude Include="Config.h" />
     <ClInclude Include="GnuplotFileManager.h" />
     <ClInclude Include="Upwind.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AdvectionScheme.cpp" />
+    <ClCompile Include="Cip.cpp" />
     <ClCompile Include="GnuplotFileManager.cpp" />
     <ClCompile Include="testmain.cpp" />
     <ClCompile Include="Upwind.cpp" />

@@ -26,6 +26,7 @@ private:
 public:
 	CGnuplotFileManager();
 	~CGnuplotFileManager();
+	CGnuplotFileManager::FILE createAnimationConfigFile();
 	CGnuplotFileManager::FILE isOpen(string *fileName) const;
 	CGnuplotFileManager::FILE nextDataBlock(string *fileName) const;
 	CGnuplotFileManager::FILE writeData(string *fileName, double* data, int size) const;
